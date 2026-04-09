@@ -34,20 +34,22 @@ void All_init(){
 
 
 }
-
+float test_angle1 = 26.0f;
+float test_angle2 = 156.0f;
 
 void test(void)
 {
+	Stand();
 
-    switch (current_state)
-    {
-    case STATE_STAND:
-        Stand();
-        break;
+    // switch (current_state)
+    // {
+    // case STATE_STAND:
+    //     Stand();
+    //     break;
     
-    default:
-        break;
-    }
+    // default:
+    //     break;
+    // }
 
     // if(PS2_Data.btn1 == 0x10) dog_state = 1;
     // else if(PS2_Data.btn1 == 0x40) dog_state = 2;
@@ -55,6 +57,16 @@ void test(void)
     // else if(PS2_Data.btn1 == 0x20) dog_state = 4;
 
     // if(PS2_Data.btn2 == 0x10) dog_state = 0;
+
+
+//  set_left_front_l_angle(test_angle1); // 15 ~ 55
+
+//  set_left_back_l_angle(test_angle1);
+
+//  set_right_front_l_angle(test_angle2); // 135~165
+
+//  set_right_back_l_angle(test_angle2);
+
 
 }
 
